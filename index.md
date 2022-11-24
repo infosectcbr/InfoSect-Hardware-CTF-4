@@ -1,6 +1,6 @@
 # Hardware CTF 4
 
-This challenge will have you find and exploit bugs in a IoT webcam. The webcan is a commercial-off-the-shelf device with cusotomised firmware to deliver the CTF-style challenges.
+This challenge will have you find and exploit bugs in a IoT webcam. The webcam is a commercial-off-the-shelf device with customised firmware to deliver the CTF-style challenges.
 
 Register your name/handle with InfoSect CTF to track your progress and compare yourself to others [http://ctf.infosectcbr.com.au:8000](http://ctf.infosectcbr.com.au:8000).
 
