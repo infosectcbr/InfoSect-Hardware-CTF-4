@@ -69,7 +69,9 @@ You should see that lighttpd is listening on 2 ports. One of these ports has a w
 
 ## Flag 4 - HTTP Headers
 
-You have been provided with some leaked source code for lighttpd. It makes reference to a backdoor that has been inserted into the custom web server. To trigger the backdoor, you need to request `/index.html` from the server and use the correct HTTP header after the GET request. What executables are present on the camera to access web pages? Netcat and telnet aren't present. What other command can you use?
+You have been provided with some leaked source code for lighttpd. It makes reference to a backdoor that has been inserted into the custom web server. Perhaps try auditing the http_request_parse_reqline function. To trigger the backdoor, you need to request `/index.html` from the server and use the correct HTTP header after the GET request.
+
+What executables are present on the camera to access web pages? Netcat and telnet aren't present. What other command can you use?
 
 ## Flag 5 - Buffer Overflow
 
@@ -91,6 +93,3 @@ Can you find the backdoor that is trying to connect to a remote site on the inte
 
 ## GPL Release
 As part of the GPL Copyright requirements, the source code modifications made to this webcam are available on request.
-
-
-
